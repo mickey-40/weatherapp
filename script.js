@@ -1,5 +1,5 @@
 const api = {
-  key: "",
+  key: process.env.KEY,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
